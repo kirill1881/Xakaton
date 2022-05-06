@@ -9,5 +9,4 @@ public class XakatonApplication {
     public static void main(String[] args) {
         SpringApplication.run(XakatonApplication.class, args);
     }
-
 }

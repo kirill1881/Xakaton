@@ -1,5 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en-US">
+<html xmlns:th="http:/www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+
 
 <head>
     <meta charset="utf-8">
@@ -37,10 +39,14 @@
             <span class="loader-inner"></span>
         </span><!-- .loader -->
     </div><!-- .loader-wrapper -->
+    <div class="album py-5 bg-light">
+        <div th:each="el : ${allAdverts}" class="alert alert-info mt-2">
+            <h3 th:text="${el.getName()}"></h3>
+            <p th:text="${el.getWeight()}"></p>
+            <p th:text="${el.getPrice()}"></p>
 
-    <!-- ================================================================= -->
-    <!-- ========================== Header Area ========================== -->
-    <!-- ================================================================= -->
+        </div>
+    </div>
 
     <header class="header-area saastrace-initial saastrace-primary-header saastrace-initial-header">
         <div class="container">
@@ -113,7 +119,7 @@
                     <div class="saastrace-home-banner">
                         <h2 class="banner-title wow fadeInUp" data-wow-delay="100ms">Приветствуем Вас на самом крутом сайте для прохождения тестов </h2>
                         <div class="button-area">
-                            <a href="#" class="btn-fill-red wow fadeInUp" data-wow-delay="200ms">Начать прохождение тестов</a>
+                            <a href="/showtest" class="btn-fill-red wow fadeInUp" data-wow-delay="200ms">Начать прохождение тестов</a>
                             <a href="#" class="btn-fill-dark wow fadeInUp" data-wow-delay="200ms">Добавить свой уникальный тест</a>
                         </div><!-- .button-area -->
                         <div class="img-area">
@@ -126,10 +132,6 @@
     </section><!-- .saas-home-banner-area -->
 
 
-
-    <!-- ========================================================================= -->
-    <!-- ========================= Saastrace Services Area ======================= -->
-    <!-- ========================================================================= -->
 
     <section class="saastrace-services-area">
         <div class="container">
