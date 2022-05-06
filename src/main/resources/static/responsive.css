@@ -1,0 +1,693 @@
+@media ( max-width: 1900px ) {
+	.feature-image.right {
+	    right: -50%;
+	}
+
+	.feature-image.left {
+	    left: -50%;
+	}
+}
+
+
+@media ( max-width: 1750px ) {
+	.feature-image.right {
+	    right: -30%;
+	}
+
+	.feature-image.left {
+	    left: -30%;
+	}
+}
+
+
+@media ( max-width: 1500px ) {
+	.feature-image.right {
+	    right: -13%;
+	}
+
+	.feature-image.left {
+	    left: -13%;
+	}
+
+	.feature-one .feature-content {
+	    margin-top: 10px;
+	}
+
+	.video-showcase-bottom {
+	    left: -150px;
+	    bottom: -60px;
+	    width: 330px;
+	    height: 300px;
+	    background-size: contain;
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	}
+
+	.agency-banner-slider {
+		width: 600px;
+	}
+
+	.our-services-area .single-services {
+		padding: 50px;
+	}
+
+	.agency-answer-area .answers-left-content {
+		padding-right: 100px;
+	}
+
+	.team-two .team-left-text {
+		padding-right: 20px;
+	}
+}
+
+@media ( max-width: 1300px ) {
+	.feature-image.right {
+	    right: -5%;
+	}
+
+	.feature-image.left {
+	    left: -5%;
+	    margin-top: 55px;
+	}
+}
+
+@media ( max-width: 1199px ) {
+	.feature-image.right {
+	    right: 0;
+	}
+
+	.feature-image.left {
+	    left: 0;
+	}
+
+	.recent-update-news,
+	.newsletter-area {
+		margin-top: 50px;
+	}
+}
+
+@media( max-width: 1024px ) {
+	.saastrace-home-banner h2 {
+		font-size: 85px;
+	}
+
+	.about-shape-top {
+	    top: 20px;
+	    left: -10px;
+	}
+
+	.single-team-shape-top {
+	    top: 5px;
+	    right: 70px;
+	}
+
+	.single-team-shape-bottom {
+	    top: 75px;
+	    left: 75px;
+	}
+
+	.video-showcase-top {
+	    right: -20px;
+	}
+
+	.saastrace-agency-banner {
+		padding: 200px 0 100px;
+	}
+
+	.agency-banner-content .btn-fill-black {
+		margin-top: 15px;
+	}
+
+	.agency-banner-content h2 {
+		font-size: 65px;
+	}
+
+	.single-agency-cs-slide h2 {
+		font-size: 45px;
+	}
+
+	.agency-banner-slider {
+		width: 440px;
+	}
+
+	.agency-cs-wrapper {
+		padding: 50px 60px;
+	}
+
+	.agency-about-content p br {
+		display: none;
+	}
+
+	.agency-about-right {
+		margin-left: 30px;
+	}
+
+	.about-text-wrapper {
+		padding: 50px;
+		bottom: 20px;
+	}
+
+	.about-text-wrapper .year {
+		margin-top: 10px;
+	}
+
+	.our-services-area .service-wrap:nth-child(odd) .single-services {
+		border: none;
+	}
+
+	.agency-answer-area .answers-left-content {
+		padding: 50px;
+	}
+
+	.masonry-item-content p {
+		display: none;
+	}
+}
+
+@media ( max-width: 991px ) {
+	.saastrace-home-banner {
+	    padding: 200px 50px 0;
+	}
+
+	.feature-image {
+	    position: unset;
+	}
+
+	.feature-one .feature-content {
+	    margin-top: 50px;
+	    margin-right: 0;
+	}
+
+	.feature-two,
+	.saastrace-pricing-area,
+	.download-statistics-area {
+		padding-top: 100px;
+	}
+
+	.feature-image.left {
+		margin-top: 0;
+	}
+
+	.feature-two .feature-content,
+	.download-statistics-content,
+	.answers-left-content {
+		margin-top: 50px;
+		margin-left: 0;
+	}
+
+	.table-3 {
+		margin-top: 30px;
+	}
+
+	.saastrace-answers-area {
+		padding: 170px 0 170px;
+	}
+
+	.call-to-action-area {
+		padding: 30px 0;
+	}
+
+	.saastrace-footer-area {
+		padding-top: 170px;
+	}
+
+	.header-area {
+		display: none;
+	}
+
+	.saastrace-team-area,
+	.saastrace-top-photo-area,
+	.saastrace-services-area,
+	.saastrace-news-area,
+	.saastrace-clients-area,
+	.saastrace-blog-area,
+	.saastrace-gallery-photography,
+	.saastrace-masonry-photography {
+		padding: 100px 0;
+	}
+
+	.saastrace-about-area {
+		padding-top: 100px;
+		padding-bottom: 160px;
+	}
+
+	.saastrace-our-gallery-area {
+	    padding: 30px 0 100px;
+	}
+
+	.saastrace-mobile-menu-area {
+		display: block;
+	}
+
+	.saastrace-slider-area,
+	.home-link-area,
+	.saastrace-breadcrumb-area {
+		margin-top: 80px;
+	}
+
+	.service-wrap:not(:first-child) {
+	    margin-top: 30px;
+	}
+
+	.top-photo-middle h3 {
+		font-size: 25px;
+	}
+
+	.top-photo-author img {
+	    margin-right: 0;
+	    display: none;
+	}
+
+	.featured-photo-wrap:nth-child(4),
+	.featured-photo-wrap:nth-child(8) {
+		border-right: 1px solid #ededed;
+	}
+
+	.featured-photo-wrap:nth-child(5),
+	.featured-photo-wrap:nth-child(6) {
+		border-bottom: 1px solid #ededed;
+	}
+
+	.slider-text-wrapper {
+	    padding: 15rem 0;
+	}
+
+	.slider-text-wrapper h2 {
+		font-size: 70px;
+	}
+
+	.saastrace-news {
+		margin-bottom: 60px;
+	}
+
+	.saastrace-about-area .saastrace-title {
+	    margin-bottom: 60px;
+	}
+
+	.saastrace-clients-area .client-wrapper {
+		margin-top: 60px;
+	}
+
+	.saastrace-blog-sidebar {
+		margin-top: 100px;
+	}
+
+	.saastrace-blog,
+	.comments-area,
+	.comment-form {
+	    padding-right: 0;
+	}
+
+	.about-shape-wrapper {
+	    margin-left: 0;
+	    text-align: center;
+	}
+
+	.about-shape-top {
+	    top: 20px;
+	    left: 30px;
+	}
+
+	.saastrace-about {
+	    margin-left: 0;
+	    margin-top: 50px;
+	}
+
+	.single-team-shape-top {
+		top: -5px;
+		right: 30px;
+	}
+
+	.single-team-shape-bottom {
+		top: 60px;
+		left: 15px;
+	}
+
+	.single-team:hover .single-team-shape-bottom {
+		top: 60px;
+		left: 25px;
+	}
+
+	.our-services-area .single-services {
+		padding: 0;
+	}
+
+	.team-two .saastrace-shrink {
+		padding: 50px;
+	}
+
+	.team-members {
+		margin-top: 55px;
+	}
+
+	.agency-banner-content {
+		float: none;
+	}
+	
+	.agency-banner-slider {
+		width: 100%;
+		position: relative;
+		bottom: 0;
+		margin-top: 30px;
+	}
+
+	.single-services .icon-wrapper span {
+		right: 0;
+	}
+
+	.masonry-item-content {
+		padding: 10px 40px;
+	}
+}
+
+@media ( max-width: 767px ) {
+	.saastrace-home-banner {
+	    padding: 200px 0px 0;
+	}
+
+	.single-service {
+		margin-top: 30px;
+	}
+
+	.table-2 {
+		margin-top: 30px;
+	}
+
+	.subscribe-area {
+		margin-top: 50px;
+	}
+
+	.slider-text-wrapper h2 {
+	    font-size: 60px;
+	}
+
+	.slider-text-wrapper h2 {
+	    font-size: 60px;
+	}
+
+	.top-photo-wrap:nth-child(1),
+	.top-photo-wrap:nth-child(2) {
+		margin-bottom: 30px;
+	}
+
+	.saastrace-news {
+	    margin-bottom: 0;
+	}
+
+	.single-news-post {
+		margin-top: 60px;
+	}
+
+	.saastrace-single-blog .single-news-post {
+		margin-top: 0;
+	}
+
+	.cta-btn .btn-fill {
+	    float: none;
+	    margin-top: 50px;
+	    display: inline-block;
+	}
+
+	.contact-area .contact {
+		margin-top: 70px;
+	}
+
+	.grid .grid-item:not(:last-child),
+	.saastrace-gallery-photography .gallery-item-wrap:not(:last-child) {
+		margin-bottom: 30px;
+	}
+
+	.footer-navigation {
+		margin-top: 50px;
+	}
+
+	.footer-left,
+	.footer-social-wrapper {
+		text-align: center;
+	}
+
+	.footer-social-wrapper {
+		margin-top: 10px;
+	}
+
+	.video-showcase-top {
+	    right: -40px;
+	    top: -30px;
+	    width: 273px;
+	    height: 280px;
+	    background-position: center center;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	}
+
+	.cta-shrink {
+	    margin: 0 auto 70px;
+	    border-radius: 0;
+	    text-align: center;
+	}
+
+	.cta-btn.text-right {
+		text-align: center !important;
+		margin-top: 30px;
+	}
+
+	.background-shape {
+		left: 0;
+	}
+
+	.saastrace-our-client-area {
+	    padding: 100px 0;
+	}
+
+	.single-team-shape-top {
+	    top: 0;
+	    right: 40px;
+	}
+
+	.single-team-shape-bottom {
+	    top: 65px;
+	    left: 45px;
+	}
+
+	.saastrace-footer-area.no-shape {
+		padding-top: 100px;
+	}
+
+	.about-shape-wrapper svg {
+		width: 90%;
+	}
+
+	.about-shape-top {
+	    top: 40px;
+	    left: 30px;
+	}
+
+	.about-shape-bottom {
+	    bottom: 0px;
+	    right: 100px;
+	}
+
+	.agency-banner-slider {
+		right: 0;
+		bottom: 0;
+	}
+
+	.about-text-wrapper {
+		left: 25%;
+	}
+
+	.agency-about-right {
+		margin-left: 0;
+		margin-top: 30px;
+	}
+
+	.agency-ar-slide.swiper-slide.swiper-slide-next {
+		margin-right: 0 !important;
+	}
+
+	.our-services-area {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+}
+
+@media ( max-width: 575px ) {
+	.saastrace-title,
+	.saastrace-title-alt {
+	    font-size: 40px;
+	}
+	
+	.saastrace-clients-area .client-container:nth-child(2),
+	.saastrace-clients-area .client-container:nth-child(4) {
+		border-right: 0;
+	}
+
+	.saastrace-clients-area .client-container:nth-child(3) {
+		border-right: 1px solid #ededed;
+	}
+
+	.saastrace-clients-area .client-container:nth-child(4) {
+		border-bottom: 1px solid #ededed;
+	}
+
+	.footer-navigation {
+		margin-bottom: 50px;
+	}
+
+	.footer-navigation ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.subscribe-area {
+	    margin-top: 0;
+	}
+
+	.footer-navigation.subscribe-area {
+		margin-bottom: 0;
+	}
+
+	.single-top-photo > img {
+		width: 100%;
+	}
+
+	.top-photo-author img {
+	    margin-right: 15px;
+	    display: block;
+	}
+
+	.home-link {
+	    padding: 50vw 0 35px;
+	}
+
+	.home-link h2:not(:last-child) {
+	    margin-right: 0;
+	    display: block;
+	    margin-bottom: 15px;
+	}
+
+	.comment-form form input {
+		float: none;
+		width: 100%;
+	}
+
+	.comment-form form input.name {
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+
+	.single-comment > img {
+		display: none;
+	}
+
+	.background-shape {
+	    left: 0;
+	    width: 300px;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	}
+
+	.single-team-shape-top {
+	    right: 120px;
+	}
+
+	.single-team-shape-bottom {
+	    top: 65px;
+	    left: 115px;
+	}
+
+	.single-team:hover .single-team-shape-bottom {
+	    top: 60px;
+	    left: 200px;
+	}
+
+	.single-team:hover .single-team-shape-bottom {
+		top: 60px;
+		left: 125px;
+	}
+
+	.team-wrap:not(:last-child) {
+		margin-bottom: 30px;
+	}
+
+	.video-showcase-top {
+		right: -10px;
+	}
+
+	.btn-fill-red, .btn-fill-dark {
+		line-height: 1.3;
+	}
+
+	.bubble {
+		display: none;
+	}
+
+	.our-gallery-content br,
+	.saastrace-team-content br,
+	.saastrace-news-shortcode-content br {
+		display: none;
+	}
+
+	.about-text-wrapper {
+		left: 0;
+		width: 100%;
+		bottom: 0;
+		background-color: rgba(14, 19, 25, .7);
+	}
+
+	.single-services .icon-wrapper span {
+		right: 20px;
+	}
+
+	.portfolio-nav ul li {
+		padding: 10px 15px;
+		font-size: 12px;
+	}
+
+	.team-members .team-member-wrap:not(:last-child) {
+		margin-bottom: 50px;
+	}
+
+	.agency-banner-slider {
+		width: 345px;
+	}
+
+	.single-agency-cs-slide h2 {
+		font-size: 35px;
+	}
+
+	.agency-banner-content h2 {
+		font-size: 40px;
+	}
+}
+
+@media ( max-width: 500px ) {
+	.saastrace-home-banner h2 {
+		font-size: 60px;
+	}
+
+	.saastrace-home-banner .button-area a.btn-fill-red {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.saastrace-about-area {
+		padding-top: 0;
+		padding-bottom: 65px;
+	}
+
+	.saastrace-about {
+		margin-top: 0;
+	}
+
+	.about-shape-top,
+	.about-shape-bottom {
+	    display: none
+	}
+
+	.saastrace-our-gallery-area.is-top-shape {
+		padding: 60px 0 60px;
+	}
+}
